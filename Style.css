@@ -1,0 +1,194 @@
+/* Styling for the main container */
+.main-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white;
+}
+
+/* Styling for the main image */
+.main-image {
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: -2px;
+    position: absolute;
+    opacity: 0.25;
+}
+
+/* Styling for the header section */
+.header-section {
+    width: 1360px;
+    height: 152px;
+    left: 40px;
+    top: 0px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Styling for the logo container */
+.logo-container {
+    width: 1360px;
+    height: 152px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+/* Styling for the logo image */
+.logo-image {
+    width: 97px;
+    height: 99px;
+    border-radius: 109px;
+}
+
+/* Styling for the title */
+.title {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Styling for navigation links */
+.nav-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    display: inline-flex;
+}
+
+/* Styling for navigation links */
+.nav-link {
+    width: 72px;
+    height: 24px;
+    color: black;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+/* Styling for the menu icon container */
+.menu-icon-container {
+    width: 88px;
+    height: 25px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+    display: inline-flex;
+}
+
+/* Styling for the menu icon */
+.menu-icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+/* Styling for the content section */
+.content-section {
+    width: 876px;
+    height: 396.45px;
+    left: 282px;
+    top: 252px;
+    position: absolute;
+}
+
+/* Styling for the rotated box */
+.rotated-box {
+    width: 38.47px;
+    height: 45.63px;
+    left: 566.08px;
+    top: 387.54px;
+    position: absolute;
+    transform: rotate(166.61deg);
+    transform-origin: 0 0;
+}
+
+/* Styling for the content */
+.content {
+    width: 876px;
+    height: 383px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 72px;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+/* Styling for the subtitle */
+.subtitle {
+    width: 413px;
+    height: 27px;
+    left: 231px;
+    top: 277px;
+    position: absolute;
+    text-align: center;
+    color: #372F2F;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styling for the CTA button container */
+.cta-button-container {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    left: 338px;
+    top: 326px;
+    position: absolute;
+    background: rgba(167, 240, 235, 0.70);
+    border-radius: 40px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+/* Styling for the CTA button */
+.cta-button {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Styling for the disclaimer */
+.disclaimer {
+    width: 106.81px;
+    height: 14.74px;
+    left: 535.65px;
+    top: 312px;
+    position: absolute;
+    transform: rotate(18.40deg);
+    transform-origin: 0 0;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-family: Yomogi;
+    font-weight: 400;
+    word-wrap: break-word;
+}

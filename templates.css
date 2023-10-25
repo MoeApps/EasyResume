@@ -1,0 +1,1049 @@
+.woman-with-telescope-looks-thr {
+    position: absolute;
+    top: 0;
+    left: 829px;
+    width: 336px;
+    height: 252px;
+    object-fit: cover;
+  }
+  .frame1 {
+    position: absolute;
+    top: 2129px;
+    left: 0;
+    width: 1165px;
+    height: 252px;
+    overflow: hidden;
+  }
+  .transport-icon {
+    position: absolute;
+    top: 0;
+    left: -124px;
+    width: 509px;
+    height: 678px;
+    object-fit: cover;
+    display: none;
+  }
+  .craft-a-cv {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    display: inline-block;
+    width: 360px;
+    height: 265px;
+  }
+  .get-started {
+    position: absolute;
+    top: 16px;
+    left: 82px;
+    font-size: var(--font-size-8xl);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--color-black);
+    text-align: center;
+  }
+  .get-started-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-lightsteelblue);
+    position: absolute;
+    top: 288px;
+    left: 19px;
+    border-radius: var(--br-mini);
+    width: 322px;
+    height: 71px;
+    overflow: hidden;
+    opacity: 0.75;
+  }
+  .transport-parent {
+    position: absolute;
+    top: 1009px;
+    left: 71px;
+    border-radius: var(--br-2xl);
+    width: 360px;
+    height: 646px;
+    overflow: hidden;
+    background-image: url(./public/frame-11@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .cv-builder-frame {
+    position: absolute;
+    top: 0;
+    left: 142px;
+    border-radius: var(--br-xl);
+    width: 100px;
+    height: 100px;
+  }
+  .use-cv-builder-to {
+    margin: 0;
+  }
+  .use-cv-builder-to-container {
+    position: absolute;
+    top: 53px;
+    left: 0;
+    display: inline-block;
+    width: 384px;
+  }
+  .cv-builder {
+    position: absolute;
+    top: 0;
+    left: 102px;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+  }
+  .cv-builder-frame-parent,
+  .frame6 {
+    position: absolute;
+    left: 0;
+    width: 384px;
+  }
+  .frame6 {
+    top: 118px;
+    height: 119px;
+    overflow: hidden;
+  }
+  .cv-builder-frame-parent {
+    top: 1px;
+    height: 237px;
+  }
+  .custom-layout1 {
+    position: absolute;
+    top: 0;
+    left: 64px;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+  }
+  .frame7 {
+    position: absolute;
+    top: 118px;
+    left: 0;
+    width: 384px;
+    height: 97px;
+    overflow: hidden;
+  }
+  .custom-layout,
+  .frame5 {
+    position: absolute;
+    top: 0;
+    left: 496px;
+    width: 384px;
+    height: 215px;
+  }
+  .frame5 {
+    left: 0;
+    width: 880px;
+    height: 238px;
+    overflow: hidden;
+  }
+  .cv-score-bot-child {
+    position: absolute;
+    bottom: 139px;
+    left: 142px;
+    border-radius: var(--br-xl);
+    width: 100px;
+    height: 100px;
+  }
+  .cv-score-bot1 {
+    position: absolute;
+    top: 0;
+    left: 81px;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+  }
+  .cv-score-bot,
+  .frame9 {
+    position: absolute;
+    left: 0;
+    width: 384px;
+  }
+  .frame9 {
+    top: 120px;
+    height: 119px;
+    overflow: hidden;
+  }
+  .cv-score-bot {
+    top: 0;
+    height: 239px;
+  }
+  .cover-letter-builder-container {
+    position: absolute;
+    top: 0;
+    left: 23px;
+  }
+  .craft-a-polished-container {
+    position: absolute;
+    top: 53px;
+    left: 0;
+    font-size: var(--font-size-lg);
+    color: var(--color-darkslategray);
+    display: inline-block;
+    width: 384px;
+  }
+  .frame10 {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 384px;
+    height: 141px;
+    overflow: hidden;
+  }
+  .cover-letter-builder {
+    position: absolute;
+    top: 0;
+    left: 496px;
+    width: 384px;
+    height: 261px;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+  }
+  .frame4,
+  .frame8,
+  .services {
+    position: absolute;
+    width: 880px;
+  }
+  .frame8 {
+    top: 386px;
+    left: 0;
+    height: 261px;
+    overflow: hidden;
+  }
+  .frame4,
+  .services {
+    top: 0;
+    left: 526px;
+    height: 647px;
+  }
+  .frame4 {
+    top: 1008px;
+    left: 17px;
+    width: 1406px;
+    overflow: hidden;
+    font-size: var(--font-size-lg);
+    color: var(--color-darkslategray);
+  }
+  .woman-working-at-laptop {
+    position: absolute;
+    top: 0;
+    left: 1256px;
+    width: 236px;
+    height: 177px;
+    object-fit: cover;
+  }
+  .frame11 {
+    position: absolute;
+    top: 1623px;
+    left: -26px;
+    width: 1492px;
+    height: 177px;
+    overflow: hidden;
+  }
+  .stockholm-resume-templates-1-icon {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 293px;
+    height: 431px;
+    object-fit: cover;
+  }
+  .stockholm-resume-templates-1-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 293px;
+    height: 439px;
+    overflow: hidden;
+  }
+  .stockholm-resume-templates-1-container,
+  .stockholm-resume-templates-1-frame {
+    position: absolute;
+    top: 0;
+    left: 811px;
+    width: 293px;
+    height: 439px;
+    overflow: hidden;
+  }
+  .stockholm-resume-templates-1-frame {
+    left: 405px;
+  }
+  .cv-template-designs {
+    position: absolute;
+    top: 392px;
+    left: 168px;
+    width: 1104px;
+    height: 439px;
+  }
+  .vector-icon {
+    width: 1440px;
+    height: 1440px;
+  }
+  .cv-templates1,
+  .frame-child,
+  .vector-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .frame-child {
+    top: 25px;
+    width: 106px;
+    height: 2px;
+  }
+  .years-of-experience {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 206.5px);
+    display: inline-block;
+    width: 413px;
+    height: 27px;
+  }
+  .cv-templates,
+  .frame13 {
+    position: absolute;
+    left: 0;
+  }
+  .frame13 {
+    top: 78px;
+    width: 413px;
+    height: 27px;
+    overflow: hidden;
+    font-size: var(--font-size-lg);
+    color: var(--color-darkslategray);
+  }
+  .cv-templates {
+    top: 0;
+    width: 461px;
+    height: 105px;
+  }
+  .arcticonssimple,
+  .frame12 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .frame12 {
+    top: 44px;
+    left: 32px;
+    width: 1376px;
+    height: 105px;
+    text-align: left;
+    font-size: var(--font-size-45xl);
+    color: var(--color-black);
+  }
+  .arcticonssimple {
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+  }
+  .professional1 {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .professional {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 764px;
+    width: 161px;
+    height: 32px;
+  }
+  .vector-icon1 {
+    position: absolute;
+    height: 100%;
+    width: 22.36%;
+    top: 0;
+    right: 78.88%;
+    bottom: 0;
+    left: -1.24%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .creative,
+  .modern {
+    position: absolute;
+    width: 161px;
+    height: 32px;
+  }
+  .modern {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 0;
+    left: 573px;
+  }
+  .creative {
+    left: 382px;
+  }
+  .all-templates,
+  .creative,
+  .simple {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 0;
+  }
+  .simple {
+    position: absolute;
+    left: 210px;
+    width: 124px;
+    height: 32px;
+  }
+  .all-templates {
+    left: 0;
+    width: 161px;
+  }
+  .all-templates,
+  .frame14,
+  .templates1 {
+    position: absolute;
+    height: 32px;
+  }
+  .templates1 {
+    top: 0;
+    left: calc(50% - 463px);
+    width: 925px;
+  }
+  .frame14 {
+    top: 269px;
+    left: 257px;
+    width: 926px;
+    overflow: hidden;
+  }
+  .templates-child {
+    position: absolute;
+    top: 331.5px;
+    left: 79.5px;
+    border-top: 1px solid var(--color-gray-100);
+    box-sizing: border-box;
+    width: 1281.1px;
+    height: 1px;
+  }
+  .group-icon,
+  .templates {
+    position: absolute;
+    top: 900px;
+    left: 0;
+    width: 1440px;
+    height: 0.5px;
+  }
+  .templates {
+    top: 834px;
+    background-color: var(--color-white);
+    height: 1800px;
+    overflow: hidden;
+  }
+  .cv-for-hiring-a-new-employee {
+    position: absolute;
+    top: 0;
+    left: 1181px;
+    width: 225px;
+    height: 253px;
+    object-fit: cover;
+  }
+  .frame16 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1406px;
+    height: 253px;
+    overflow: hidden;
+  }
+  .recruiter-chooses-the-best-can {
+    position: absolute;
+    top: 0;
+    left: 62px;
+    width: 216px;
+    height: 173px;
+    object-fit: cover;
+  }
+  .frame15,
+  .frame17,
+  .frame3 {
+    position: absolute;
+    top: 298px;
+    left: 0;
+    width: 278px;
+    height: 173px;
+    overflow: hidden;
+  }
+  .frame15,
+  .frame3 {
+    top: 0;
+    width: 1406px;
+    height: 471px;
+  }
+  .frame3 {
+    top: 66px;
+    width: 1440px;
+    height: 2634px;
+  }
+  .frame18,
+  .what-easyresume-do {
+    position: absolute;
+    top: 63px;
+    left: 0;
+  }
+  .frame18 {
+    top: 36px;
+    left: 345px;
+    width: 751px;
+    height: 141px;
+    overflow: hidden;
+  }
+  .frame-item {
+    position: absolute;
+    top: 70px;
+    left: 368px;
+    border-radius: 50%;
+    background-color: rgba(108, 230, 221, 0.6);
+    width: 650px;
+    height: 625px;
+  }
+  .overview-11x-1-icon {
+    position: absolute;
+    top: 0;
+    left: 17px;
+    width: 445px;
+    height: 364px;
+    object-fit: cover;
+  }
+  .bothered-by-the,
+  .suggests-and-helps {
+    position: absolute;
+    top: 357px;
+    left: 0;
+    display: inline-block;
+    width: 644px;
+    height: 50px;
+  }
+  .bothered-by-the {
+    top: 397px;
+    left: 18px;
+    font-size: var(--font-size-xl);
+    text-align: left;
+    width: 571px;
+    height: 88px;
+  }
+  .frame20,
+  .frame21 {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 1018px;
+    height: 695px;
+    overflow: hidden;
+  }
+  .frame20 {
+    top: 0;
+    left: 887px;
+    height: 945px;
+  }
+  .bothered-by-the1,
+  .professional-templates-for {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 679px;
+    height: 46px;
+  }
+  .bothered-by-the1 {
+    top: 35px;
+    width: 571px;
+    height: 88px;
+  }
+  .frame-icon,
+  .frame23,
+  .frame24,
+  .frame25 {
+    position: absolute;
+    top: 0;
+    height: 123px;
+    overflow: hidden;
+  }
+  .frame25 {
+    left: 62px;
+    width: 571px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+  }
+  .frame-icon,
+  .frame23,
+  .frame24 {
+    left: 188px;
+    width: 679px;
+  }
+  .frame-icon,
+  .frame23 {
+    top: 216px;
+    left: 0;
+    width: 867px;
+  }
+  .frame-icon {
+    top: 0;
+    left: 140px;
+    width: 363.8px;
+    height: 343px;
+  }
+  .overview-21x-1-icon {
+    position: absolute;
+    top: 0;
+    left: 308.8px;
+    width: 493px;
+    height: 347px;
+    object-fit: cover;
+  }
+  .frame19,
+  .frame22,
+  .frame26,
+  .frame27 {
+    position: absolute;
+    top: 517px;
+    left: 1.2px;
+    width: 801.8px;
+    height: 347px;
+    overflow: hidden;
+  }
+  .frame19,
+  .frame22,
+  .frame26 {
+    top: 0;
+    left: 0;
+    width: 803px;
+    height: 864px;
+  }
+  .frame19,
+  .frame22 {
+    width: 867px;
+    font-size: 30px;
+  }
+  .frame19 {
+    top: 36px;
+    left: -140px;
+    width: 1905px;
+    height: 945px;
+    font-size: 28px;
+    font-family: var(--font-arial);
+  }
+  .about,
+  .frame2 {
+    top: 0;
+    left: 0;
+    width: 1440px;
+  }
+  .about {
+    position: absolute;
+    background-color: var(--color-white);
+    height: 900px;
+    overflow: hidden;
+    font-size: var(--font-size-45xl);
+    color: var(--color-black);
+  }
+  .frame2 {
+    height: 2700px;
+  }
+  .frame,
+  .frame-icon1,
+  .frame2 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .frame {
+    top: 900px;
+    left: 0;
+    width: 1440px;
+    height: 2700px;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+  }
+  .frame-icon1 {
+    top: 0;
+    left: 518.1px;
+    width: 38.5px;
+    height: 388.8px;
+  }
+  .build-your-resume-container {
+    position: absolute;
+    top: calc(50% - 191.5px);
+    left: calc(50% - 438px);
+    text-transform: uppercase;
+    display: inline-block;
+    width: 876px;
+    height: 235px;
+  }
+  .create-my-resume {
+    position: absolute;
+    top: 18px;
+    left: 6px;
+    font-size: var(--font-size-mid);
+    font-family: var(--font-montserrat);
+    color: var(--color-black);
+    text-align: center;
+    text-shadow: 0 0 25px rgba(24, 255, 53, 0.25);
+  }
+  .cta,
+  .frame32 {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    overflow: hidden;
+  }
+  .cta {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-paleturquoise);
+    top: 14px;
+    border-radius: var(--br-21xl);
+    height: 57px;
+  }
+  .frame32 {
+    top: 0;
+    height: 71px;
+  }
+  .create-your-resume {
+    position: absolute;
+    top: 0;
+    left: 197.7px;
+    display: inline-block;
+    width: 106.8px;
+    height: 14.7px;
+    transform: rotate(18.4deg);
+    transform-origin: 0 0;
+  }
+  .frame30,
+  .frame31 {
+    position: absolute;
+    top: 0;
+    left: 338px;
+    width: 299px;
+    height: 71px;
+    overflow: hidden;
+  }
+  .frame30 {
+    top: 35px;
+    left: 0;
+    width: 637px;
+  }
+  .a-professional-job {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 91px);
+    display: inline-block;
+    width: 413px;
+    height: 27px;
+  }
+  .frame29,
+  .frame33 {
+    position: absolute;
+    left: 0;
+    width: 644px;
+    overflow: hidden;
+  }
+  .frame33 {
+    top: 0;
+    height: 27px;
+    font-size: var(--font-size-lg);
+    color: var(--color-darkslategray);
+    font-family: var(--font-montserrat);
+  }
+  .frame29 {
+    top: 277px;
+    height: 106px;
+    font-size: var(--font-size-smi);
+    font-family: var(--font-yomogi);
+  }
+  .frame28,
+  .main-text,
+  .main-text1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 876px;
+    height: 383px;
+  }
+  .frame28,
+  .main-text {
+    left: 207px;
+    height: 396.4px;
+  }
+  .frame28 {
+    top: 286px;
+    left: 30px;
+    width: 1083px;
+    overflow: hidden;
+  }
+  .n-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-90xl);
+    width: 97px;
+    height: 99px;
+    object-fit: cover;
+  }
+  .frame-icon2 {
+    position: absolute;
+    top: 0;
+    left: 1167px;
+    width: 88px;
+    height: 57px;
+    overflow: hidden;
+  }
+  .easyresume,
+  .frame37 {
+    position: absolute;
+    top: 25px;
+    left: 0;
+  }
+  .frame37 {
+    top: 0;
+    width: 204px;
+    height: 64px;
+    overflow: hidden;
+  }
+  .contact,
+  .main1,
+  .pricing,
+  .templates2 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .main1 {
+    text-decoration: none;
+    color: inherit;
+    width: 72px;
+  }
+  .contact,
+  .pricing,
+  .templates2 {
+    width: 97px;
+  }
+  .contact,
+  .pricing {
+    width: 72px;
+  }
+  .contact {
+    width: 87px;
+  }
+  .main-parent {
+    text-decoration: none;
+    position: absolute;
+    top: calc(50% + 8px);
+    left: calc(50% - 280px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+    color: inherit;
+  }
+  .frame36,
+  .frame38 {
+    position: absolute;
+    top: 0;
+    height: 64px;
+    overflow: hidden;
+  }
+  .frame38 {
+    left: 358px;
+    width: 560px;
+    text-align: left;
+    font-size: var(--font-size-lg);
+  }
+  .frame36 {
+    left: 0;
+    width: 918px;
+  }
+  .frame35 {
+    top: 0;
+    left: 105px;
+    width: 1255px;
+    height: 64px;
+  }
+  .frame34,
+  .frame35,
+  .main {
+    position: absolute;
+    overflow: hidden;
+  }
+  .frame34 {
+    top: 36px;
+    left: 30px;
+    width: 1360px;
+    height: 99px;
+    text-align: center;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  .main {
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 900px;
+    background-image: url(./public/main@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .vectary-texture-icon {
+    position: absolute;
+    top: 511px;
+    left: 0;
+    width: 113px;
+    height: 158px;
+    object-fit: cover;
+  }
+  .frame39 {
+    position: absolute;
+    top: -500px;
+    left: 966px;
+    width: 113px;
+    height: 669px;
+    overflow: hidden;
+  }
+  .get-in-contact {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 267px);
+  }
+  .facebook-frame,
+  .ig-frame,
+  .logosfacebook-icon {
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+  }
+  .facebook-frame,
+  .ig-frame {
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-base);
+    background-color: var(--color-gray-200);
+    box-shadow: 0 0 15px #1877f2;
+    backdrop-filter: blur(10px);
+    width: 124px;
+    height: 124px;
+  }
+  .ig-frame {
+    left: 164px;
+    box-shadow: 0 0 15px #ab31be;
+  }
+  .logostwitter-icon,
+  .twitter-frame {
+    position: absolute;
+    top: 17.2px;
+    left: 17px;
+    width: 90px;
+    height: 89.7px;
+    overflow: hidden;
+  }
+  .twitter-frame {
+    text-decoration: none;
+    top: 0;
+    left: 328px;
+    border-radius: var(--br-base);
+    background-color: var(--color-gray-200);
+    box-shadow: 0 0 15px #55acee;
+    backdrop-filter: blur(10px);
+    width: 124px;
+    height: 124px;
+  }
+  .logoswhatsapp-icon {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+  }
+  .contact2,
+  .whatsapp-frame {
+    position: absolute;
+    height: 124px;
+  }
+  .whatsapp-frame {
+    text-decoration: none;
+    top: 0;
+    left: 492px;
+    border-radius: var(--br-base);
+    background-color: var(--color-gray-200);
+    box-shadow: 0 0 15px #60d669;
+    backdrop-filter: blur(10px);
+    width: 124px;
+    overflow: hidden;
+  }
+  .contact2 {
+    top: 108px;
+    left: calc(50% - 308px);
+    width: 616px;
+  }
+  .get-in-contact-parent {
+    position: absolute;
+    top: 590px;
+    left: 0;
+    width: 616px;
+    height: 232px;
+  }
+  .contact1,
+  .frame40,
+  .frame41 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .frame41 {
+    top: 0;
+    left: 412px;
+    width: 616px;
+    height: 822px;
+  }
+  .contact1,
+  .frame40 {
+    left: 0;
+    width: 1440px;
+  }
+  .frame40 {
+    top: -500px;
+    height: 999px;
+    background-image: url(./public/frame3@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .contact1 {
+    top: 3600px;
+    background-color: var(--color-white);
+    height: 434px;
+  }
+  .frame-parent {
+    position: relative;
+    width: 100%;
+    height: 4034px;
+    text-align: center;
+    font-size: var(--font-size-53xl);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  
