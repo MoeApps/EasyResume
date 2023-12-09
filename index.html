@@ -1,8 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html> 
   <head>
+
+    <title>EasyResume</title>
+    <meta content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/x-icon" href="/images/Logo.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+
+<!-- BootsTrap implmentation-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+ 
+ <style>
+
+
+button[style*="background-color: transparent;"] {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  button[style*="background-color: transparent;"]:hover {
+    background-color: rgba(167, 240, 235, 0.9); /* Change to your desired hover background color */
+    color: rgba(167, 240, 235, 0.9); /* Change to your desired hover text color */
+  }
+
+.typing-text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2.5s steps(15) infinite;
+    color:rgba(167, 240, 235, 0.9);
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+  }
+
+      /* Define the hover effect for links within the #header element */
+      #header a {
+        text-decoration: none; /* Remove the default underline */
+        position: relative; /* Add relative positioning for the underline */
+      }
+    
+      #header a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px; /* Height of the underline */
+        bottom: 0;
+        left: 0;
+        background-color: rgba(167, 240, 235, 0); /* Initial color (transparent) */
+        transition: background-color 0.3s; /* Add a transition for smooth color change */
+      }
+    
+      #header a:hover::before {
+       
+        background-color: rgba(167, 240, 235, 1); /* Change the underline color on hover */
+      }
+
+
+    </style>
+    
 
     <link
       rel="stylesheet"
@@ -117,6 +181,42 @@
                   background-position: top;
                 "
               >
+
+              <button 
+              style="
+                  cursor: pointer;
+                  border: none;
+                  padding: 0;
+                  background-color: #94bad1;
+                  position: absolute;
+                  top: 288px;
+                  left: 19px;
+                  border-radius: 15px;
+                  width: 322px;
+                  height: 71px;
+                  overflow: hidden;
+                  opacity: 0.75;
+                  z-index: 1; /* Add a higher z-index value */
+              "
+              id="getStarted"
+              onclick="window.location.href = 'login.html';"
+
+>
+  <div
+    style="
+      position: absolute;
+      top: 16px;
+      left: 82px;
+      font-size: 27px;
+      font-weight: 500;
+      font-family: Montserrat;
+      color: #000;
+      text-align: center;
+    "
+  >
+    Get Started
+  </div>
+</button>
                 <img
                   style="
                     position: absolute;
@@ -142,39 +242,10 @@
                   "
                   >Craft a CV that surpasses all expectations!</b
                 >
-                <button
-                  style="
-                    cursor: pointer;
-                    border: none;
-                    padding: 0;
-                    background-color: #94bad1;
-                    position: absolute;
-                    top: 288px;
-                    left: 19px;
-                    border-radius: 15px;
-                    width: 322px;
-                    height: 71px;
-                    overflow: hidden;
-                    opacity: 0.75;
-                  "
-                  id="Get Started"
-                >
-                  <div
-                    style="
-                      position: absolute;
-                      top: 16px;
-                      left: 82px;
-                      font-size: 27px;
-                      font-weight: 500;
-                      font-family: Montserrat;
-                      color: #000;
-                      text-align: center;
-                    "
-                  >
-                    Get Started
-                  </div>
-                </button>
+                           
+          
               </div>
+              
               <div
                 style="
                   position: absolute;
@@ -206,6 +277,7 @@
                       overflow: hidden;
                     "
                   >
+              
                     <div
                       style="
                         position: absolute;
@@ -446,6 +518,10 @@
                   </div>
                 </div>
               </div>
+
+
+<!-- CV TEMPLATES -->
+
               <div
                 style="
                   position: absolute;
@@ -498,7 +574,7 @@
                       object-fit: cover;
                     "
                     alt=""
-                    src="./images/stockholm-resume-templates 1.png";
+                    src="./images/cv1.jpg";
                   />
                 </div>
                 <div
@@ -544,7 +620,7 @@
                       object-fit: cover;
                     "
                     alt=""
-                    src="./images/stockholm-resume-templates 1.png";
+                    src="./images/cv2.png";
                   />
                 </div>
               </div>
@@ -658,6 +734,7 @@
                       left: 764px;
                       width: 161px;
                       height: 32px;
+                      
                     "
                     id="Prof"
                   >
@@ -1050,10 +1127,7 @@
                       height: 88px;
                     "
                   >
-                    Bothered by the CV templates available elsewhere?
-                    Thankfully, Zety CV maker offers you 18 template designs
-                    that you can fully customize and make just the way you want.
-                    For any job.
+                  EasyResume simplifies the process of creating professional resumes and goes the extra mile by seamlessly assisting you in importing your data.
                   </div>
                 </div>
               </div>
@@ -1122,9 +1196,8 @@
                         "
                       >
                         Bothered by the CV templates available elsewhere?
-                        Thankfully, Zety CV maker offers you 18 template designs
-                        that you can fully customize and make just the way you
-                        want. For any job.
+                        Thankfully, EasyResume offers you various template designs
+                        that can help you win any job.
                       </div>
                     </div>
                   </div>
@@ -1238,19 +1311,22 @@
                 height: 383px;
               "
             >
-              <b
-                style="
-                  position: absolute;
-                  top: calc(50% - 191.5px);
-                  left: calc(50% - 438px);
-                  text-transform: uppercase;
-                  display: inline-block;
-                  width: 876px;
-                  height: 235px;
-                "
-              >
-                <p style="margin: 0">Build your Resume in couple of minutes</p>
-              </b>
+            <b
+            style="
+              position: absolute;
+              top: calc(50% - 191.5px);
+              left: calc(50% - 438px);
+              text-transform: uppercase;
+              display: inline-block;
+              width: 876px;
+              height: 235px;
+            "
+          >
+            <p style="margin: 0">
+             Build your Resume <span class="typing-text">In minutes</span>
+            </p>
+          </b>
+          
               <div
                 style="
                   position: absolute;
@@ -1283,47 +1359,41 @@
                       overflow: hidden;
                     "
                   >
-                    <div
+                  <div style="position: absolute; top: 0px; left: 0px; width: 180px; height: 71px; overflow: hidden;">
+                 <form action="./Signup.html" class="inline">
+                    <button 
                       style="
+                        cursor: pointer;
+                        border: none;
+                        padding: 0;
+                        background-color: rgba(167, 240, 235, 0.7);
                         position: absolute;
-                        top: 0px;
+                        top: 14px;
                         left: 0px;
+                        border-radius: 40px;
                         width: 180px;
-                        height: 71px;
+                        height: 57px;
                         overflow: hidden;
+                        transition: transform 0.3s; /* Add a transition for a smooth scaling animation */
                       "
+                      id="1"
+                      onmouseover="this.style.transform = 'scale(1.05)'"  /* Scale up on hover */
+                      onmouseout="this.style.transform = 'scale(1)'"  /* Reset the scale on mouseout */
                     >
-                      <button
-                        style="
-                          cursor: pointer;
-                          border: none;
-                          padding: 0;
-                          background-color: rgba(167, 240, 235, 0.7);
-                          position: absolute;
-                          top: 14px;
-                          left: 0px;
-                          border-radius: 40px;
-                          width: 180px;
-                          height: 57px;
-                          overflow: hidden;
-                        "
-                        id="1"
-                      >
-                        <b
-                          style="
-                            position: absolute;
-                            top: 18px;
-                            left: 9px;
-                            font-size: 16px;
-                            font-family: Montserrat;
-                            color: #000;
-                            text-align: center;
-                            text-shadow: 0px 0px 25px rgba(24, 255, 53, 0.25);
-                          "
-                          >Create My Resume</b
-                        >
-                      </button>
-                    </div>
+                      <b style="
+                        position: absolute;
+                        top: 18px;
+                        left: 9px;
+                        font-size: 16px;
+                        font-family: Montserrat;
+                        color: #000;
+                        text-align: center;
+                        text-shadow: 0px 0px 25px rgba(24, 255, 53, 0.25);
+                      ">Create My Resume</b>
+                </form>  
+                </button>
+                  </div>
+                  
                     <div
                       style="
                         position: absolute;
@@ -1383,7 +1453,7 @@
             color: #000;
             font-family: Montserrat;
           "
-          id="heder"
+          id="header"
         >
           <img
             style="
@@ -1411,7 +1481,8 @@
           >
 
           <!-- // TOP Right social media icons -->
-            <img
+           
+          <img
               style="
                 position: absolute;
                 top: 0px;
@@ -1421,20 +1492,10 @@
                 overflow: hidden;
               "
               alt=""
-              src="./images/ic_outline-facebook.svg"
+              src="./images/facebook.svg"
             />
-            <img
-            style="
-              position: absolute;
-              top: 0px;
-              left: 1167px;
-              width: 88px;
-              height: 57px;
-              overflow: hidden;
-            "
-            alt=""
-            src="./images/ri_instagram-fill.svg"
-          />
+            
+        
 
             <div
               style="
@@ -1460,8 +1521,9 @@
                   >Easyresume</b
                 >
               </div>
-              <div
+              <div 
                 style="
+                
                   position: absolute;
                   top: 0px;
                   left: 358px;
@@ -1486,7 +1548,7 @@
                     color: inherit;
                   "
                 >
-                  <a
+                  <a href="index.html"
                     style="
                       text-decoration: none;
                       position: relative;
@@ -1499,19 +1561,24 @@
                     "
                     >Main
                   </a>
-                  <div
+                  <a href="#about"
+                  
                     style="
+                      text-decoration: none;  
+                      color: inherit;                  
                       position: relative;
                       font-weight: 500;
                       display: inline-block;
                       width: 72px;
                       height: 24px;
                       flex-shrink: 0;
+                      
                     "
                   >
                     About
-                  </div>
-                  <div
+                  
+                  </a>
+                  <a href="#templates"
                     style="
                       position: relative;
                       font-weight: 500;
@@ -1519,23 +1586,14 @@
                       width: 97px;
                       height: 24px;
                       flex-shrink: 0;
+                      text-decoration: none;  
+                      color: inherit; 
                     "
                   >
                     Templates
-                  </div>
-                  <div
-                    style="
-                      position: relative;
-                      font-weight: 500;
-                      display: inline-block;
-                      width: 72px;
-                      height: 24px;
-                      flex-shrink: 0;
-                    "
-                  >
-                    Pricing
-                  </div>
-                  <div
+                </a>
+                 
+                  <a href="#Contact"
                     style="
                       position: relative;
                       font-weight: 500;
@@ -1543,10 +1601,13 @@
                       width: 87px;
                       height: 24px;
                       flex-shrink: 0;
+                      text-decoration: none;  
+                      color: inherit; 
+                      left: 10px;
                     "
                   >
                     Contact
-                  </div>
+              </a>
                 </a>
               </div>
             </div>
@@ -1623,7 +1684,12 @@
                 height: 232px;
               "
             >
-              <b style="position: absolute; top: 0px; left: calc(50% - 267px)"
+              <b style="position: absolute; top: 0px; left: calc(50% - 267px);
+              color: black;
+font-size: 72px;
+font-family: Montserrat;
+font-weight: 700;
+word-wrap: break-word"
                 >Get in contact</b
               >
               <div
@@ -1678,7 +1744,7 @@
                     height: 124px;
                     overflow: hidden;
                   "
-                  href="Instagram.com"
+                  href="https://www.Instagram.com"
                 >
                   <img
                     style="
@@ -1707,7 +1773,7 @@
                     height: 124px;
                     overflow: hidden;
                   "
-                  href="Twitter.com"
+                  href="https://www.Twitter.com"
                 >
                   <img
                     style="
@@ -1737,7 +1803,8 @@
                     overflow: hidden;
                   "
                   id="whats"
-                  href="whastsapp.web"
+                  href="whatsapp:contact=+201025605275.whatsapp.com&message=Id like to chat with you"
+
                 >
                   <img
                     style="
@@ -1758,5 +1825,9 @@
         </div>
       </div>
     </div>
+
+
+
+  
   </body>
 </html>
