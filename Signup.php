@@ -157,6 +157,50 @@
             const confirmPassword = confirmPasswordInput.value;
             return password === confirmPassword;
         }
+
+
+        
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    // Server-side validation
+    if (isPasswordValid()) {
+        // Perform authentication (checking if the user exists in the database)
+        $db = new mysqli('localhost', 'root', '', 'cv_maker');
+
+        $stmt = $db->prepare("SELECT * FROM users WHERE username = ?");
+        $stmt->bind_param("s", $username);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $existingUser = $result->fetch_assoc();
+        $stmt->close();
+
+        if ($existingUser) {
+            echo 'Username already exists. Please choose another username.';
+        } else {
+            // Store user in the database
+            $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+
+            $stmt = $db->prepare("INSERT INTO users (username, password) VALUES (?, ?)");
+            $stmt->bind_param("ss", $username, $hashedPassword);
+            $stmt->execute();
+            $stmt->close();
+
+            echo 'Registration successful!';
+        }
+    } else {
+        echo 'Invalid password. Password must be at least 8 characters long and contain at least one letter and one number.';
+    }
+}
+
+function isPasswordValid() {
+    $password = $_POST['password'];
+    $passwordRegex = '/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/';
+    return preg_match($passwordRegex, $password);
+}
+
+
     </script>
     
 </body>

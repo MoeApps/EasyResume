@@ -124,7 +124,7 @@ body {
 	height: 2px;
 	background-color: var(--profile-theme);
 	transition: width 0.3s;
-	/transition-timing-function: cubic-bezier(.64,.51,.16,.86);/
+	/*transition-timing-function: cubic-bezier(.64,.51,.16,.86);*/
 	transition-timing-function: cubic-bezier(.92,.57,.33,1.02);
 	transform: translate(-50%, 0);
 }
@@ -406,6 +406,6 @@ body {
 }
 @media (max-width: 500px) {
 	html {
-		font-size: 70%;
+		font-size: 70%;
 	}
 }
