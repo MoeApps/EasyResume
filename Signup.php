@@ -167,7 +167,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Server-side validation
     if (isPasswordValid()) {
         // Perform authentication (checking if the user exists in the database)
-        $db = new mysqli('localhost', 'root', '', 'cv_maker');
+        $db = new mysqli('http://127.0.0.1/phpmyadmin', 'root', '', 'cv_maker');
 
         $stmt = $db->prepare("SELECT * FROM users WHERE username = ?");
         $stmt->bind_param("s", $username);
